@@ -1,6 +1,7 @@
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
 import ProfileCard from "@/components/ProfileCard";
+import RecentWork from "@/components/RecentWork";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <main className="max-w-lg mx-auto px-4 py-8 space-y-6 mb-10">
         <ProfileCard />
+        <RecentWork />
       </main>
       <Footer />
     </div>
