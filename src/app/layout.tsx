@@ -29,7 +29,7 @@ export default function RootLayout({
     suppressHydrationWarning
     >
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-stone-50 dark:bg-stone-950`}
       >
         <ThemeProvider>
           {children}
