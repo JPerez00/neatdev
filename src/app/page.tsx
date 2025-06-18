@@ -1,3 +1,4 @@
+import Bookmarks from "@/components/Bookmarks";
 import FeaturedPost from "@/components/FeaturedPost";
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
@@ -14,6 +15,7 @@ export default function Home() {
         <RecentWork />
         <SignatureProjects />
         <FeaturedPost />
+        <Bookmarks />
       </main>
       <Footer />
     </div>
