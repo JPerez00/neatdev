@@ -1,7 +1,7 @@
 'use client'
 
 import { ExternalLink } from 'lucide-react';
-import { motion, useMotionValue, useAnimation } from 'framer-motion';
+import { motion, useAnimation } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
 import { MotionDiv } from './MotionWrapper';
 
@@ -75,8 +75,14 @@ const Bookmarks = () => {
       }
     ]
   ];
-
-  const BookmarkCard = ({ bookmark }: { bookmark: any }) => (
+  type Bookmark = {
+    title: string;
+    description: string;
+    url: string;
+    image: string;
+  };
+  
+  const BookmarkCard = ({ bookmark }: { bookmark: Bookmark }) => (
     <a
       href={bookmark.url}
       target="_blank"
