@@ -78,7 +78,7 @@ export default function SignatureProjects() {
           <CarouselContent className="-ml-2 md:-ml-4">
             {projects.map((project) => (
               <CarouselItem key={project.title} className="pl-2 md:pl-4 basis-4/5 md:basis-1/2">
-                <Card className="bg-white dark:bg-stone-900/90 backdrop-blur-sm border border-stone-100 dark:border-stone-800/50 hover:bg-white/80 dark:hover:bg-stone-800/60 hover:border-stone-200 dark:hover:border-stone-700/50 hover:shadow-sm dark:shadow-stone-900/20 transition-all duration-300 group h-full">
+                <Card className="bg-white dark:bg-stone-900/90 backdrop-blur-sm border border-stone-100 dark:border-stone-800/50 hover:bg-white/80 dark:hover:bg-stone-800/60 hover:border-stone-200 dark:hover:border-stone-700/50 hover:shadow-sm dark:shadow-stone-900/20 group h-full">
                   <CardContent className="p-4 flex flex-col h-full">
                     {/* Project Image */}
                     <div className="relative w-full aspect-video bg-stone-100 dark:bg-stone-800 rounded-xl mb-3 overflow-hidden">
@@ -93,7 +93,7 @@ export default function SignatureProjects() {
                     </div>
                     
                     {/* Project Title */}
-                    <h3 className="font-semibold text-stone-900 dark:text-stone-100 text-sm group-hover:text-stone-700 dark:group-hover:text-stone-200 transition-colors mb-2">
+                    <h3 className="font-semibold text-stone-900 dark:text-stone-100 text-sm group-hover:text-stone-700 dark:group-hover:text-stone-200 mb-2">
                       {project.title}
                     </h3>
                     
