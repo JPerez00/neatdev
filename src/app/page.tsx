@@ -1,3 +1,4 @@
+import FeaturedPost from "@/components/FeaturedPost";
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
 import ProfileCard from "@/components/ProfileCard";
@@ -12,6 +13,7 @@ export default function Home() {
         <ProfileCard />
         <RecentWork />
         <SignatureProjects />
+        <FeaturedPost />
       </main>
       <Footer />
     </div>
