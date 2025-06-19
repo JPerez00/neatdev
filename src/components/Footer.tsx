@@ -9,7 +9,7 @@ export function Footer() {
           className="hover:text-stone-700 hover:dark:text-stone-200 hover:underline" target="_blank" rel="noopener noreferrer">
             Jorge Perez</Link>
         </p>
-        <div className="mt-4 md:mt-0 flex gap-x-4 font-bold text-stone-600 dark:text-stone-300 text-xs">
+        <div className="mt-4 md:mt-0 flex gap-x-4 font-bold text-stone-600 dark:text-stone-300 text-sm">
           NeatDev
         </div>
       </div>

@@ -20,7 +20,7 @@ export default function ProfileCard() {
             priority
           />
           <div className="flex-1 min-w-0">
-            <h1 className="font-bold text-xl text-stone-900 dark:text-stone-50 mb-1 tracking-tight">
+            <h1 className="font-bold lg:text-2xl text-xl text-stone-900 dark:text-stone-50 mb-1 tracking-tight">
               John Doe
             </h1>
             <p className="text-stone-600 dark:text-stone-300 text-sm mb-2 leading-relaxed">
