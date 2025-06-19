@@ -1,4 +1,5 @@
 import Bookmarks from "@/components/Bookmarks";
+import ContactSection from "@/components/ContactSection";
 import FeaturedPost from "@/components/FeaturedPost";
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
@@ -16,8 +17,9 @@ export default function Home() {
         <RecentWork />
         <SignatureProjects />
         <FeaturedPost />
-        <Bookmarks />
         <Newsletter />
+        <Bookmarks />
+        <ContactSection />
       </main>
       <Footer />
     </div>
