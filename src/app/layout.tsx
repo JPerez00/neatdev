@@ -4,6 +4,7 @@ import "./globals.css";
 import ThemeProvider from "@/components/ThemeProvider";
 import BackToTop from "@/components/BackToTop";
 import { Analytics } from "@vercel/analytics/next"
+import ScrollProgressBar from "@/components/ScrollProgressBar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "NeatDev - Developer Portfolio",
-  description: "A clean, simple one-page portfolio built for modern developers.",
+  description: "A neat, simple one-page portfolio built for modern developers.",
 };
 
 export default function RootLayout({
@@ -34,6 +35,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-stone-50 dark:bg-stone-950`}
       >
         <ThemeProvider>
+          <ScrollProgressBar />
           {children}
         </ThemeProvider>
         <BackToTop />
